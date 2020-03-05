@@ -1,0 +1,76 @@
+body{
+font-size:1em;
+font-family:楷体,Verdana, Arial, Helvetica, sans-serif;
+overflow-x:hidden;
+}
+#daohang{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:26px;
+	z-index:99;
+	background:#999;
+}
+.leftnav{
+	float:left;
+	width:400px;
+}
+.rightnav{
+	float:right;
+	width:100px;
+	margin:2px;
+}
+#nav, #nav ul{
+margin:0;
+padding:0;
+list-style-type:none;
+list-style-position:outside;
+position:relative;
+line-height:1.5em; 
+}
+#nav a{
+display:block;
+padding:0px 5px;
+border:1px solid #999;
+color:#fff;
+text-decoration:none;
+background-color:#999;
+}
+#nav a:hover{
+background-color:#fff;
+color:#333;
+}
+#nav li{
+float:left;
+position:relative;
+}
+#nav ul {
+position:absolute;
+display:none;
+width:8em;
+top:1.6em;
+}
+#nav li ul a{
+width:6em;
+height:auto;
+float:left;
+}
+#nav ul ul{
+top:auto;
+}	
+ #nav li ul ul {
+left:6em;
+margin:0px 0 0 10px;
+}
+.rightnav img{
+	width:20px;
+	height:20px;
+}
+#footer{
+	text-align:center;
+	color:#FFF;
+	background:#666;
+	width:100%;
+	height:20px;
+}

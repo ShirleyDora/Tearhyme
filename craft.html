@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>茶韵</title>
+</head>
+
+<body>
+		<div id="daohang">
+    	<div class="leftnav">
+            <ul id="nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="origin.html">文化起源</a></li>
+                <li><a href="craft.html">制作工艺</a></li>
+                <li><a href="health.html">利益养生</a>
+                	<ul>
+                    	<li><a href="health.html">茶之功效</a>
+						 <li><a href="tea-poems.html">茶与诗词</a></li>
+                         <li><a href="tea-influence.html">茶之影响</a></li> 
+                    </ul>
+                </li>
+                <li><a href="teaism.html">茶道茶德</a>
+</li>
+            	<li><a href="message.html">留言</a></li>
+            </ul>
+        </div>
+        <div class="rightnav">
+          <img src="./images/play.png" onclick="play()">
+		  <img src="./images/stop.png" onclick="stop()">
+		  <audio id="music" loop autoplay="autoplay">
+                <source src="./music/01.mp3" type="audio/mpeg">
+                <source src="./music/01.ogg" type="audio/ogg">
+		  </audio>
+        </div>
+     </div>
+    <div id="content">
+    	<div id="maindiv" class="maindiv">
+ 			<div id="contentdiv1" class="contentdiv">
+                <div class="firstArticle">
+                    <h1>一、杀青</h1>
+                    <p>杀青对绿茶品质起着决定性的作用。通过高温，破坏鲜叶中酶的特性，制止多酚类物质氧化，以防止叶子红变；同时蒸发叶内的部分水分，使叶子变软，为接触造形创造条件。随着水分的蒸发，鲜叶中具有青草气的低沸点芳香物质挥发消失，从而使茶叶香气得到改善。<br/>
+                    除特种茶外，该过程均在杀青机中进行。影响杀青质量的因素有杀青温度、投叶量、杀青机种类、时间、杀青方式等。<br/>
+                    它们是一个整体，互相牵连制约。</p>
+                </div>
+            </div>
+            <div id="contentdiv2" class="contentdiv">
+                <div class="secondArticle">
+                     <h1>二、揉捻</h1>
+                    <p>揉捻是绿茶塑造外形的一道工序。通过利用外力作用，使叶片揉破变轻，卷转成条，体积缩小，且便于冲泡。同时部分茶汁挤溢附着在叶表面，对提高茶滋味浓度也有重要作用。<br/>
+                    制绿茶的揉捻工序有冷揉与热揉之分。<br/>
+                    所谓冷揉，即杀青叶经过摊凉后揉捻；热揉则是杀青叶不经摊凉而趁热进行的揉捻。嫩叶宜冷揉以保持黄绿明亮之汤色于嫩绿的叶底，老叶宜热揉以利于条索紧结，减少碎末。
+                    </p>
+                </div>
+            </div>
+			<div id="contentdiv3" class="contentdiv">
+            	 <div class="thirdArticle">
+                    <h1>三、干燥</h1>
+                    <p>干燥的目的，蒸发水分，并整理外形，充分发挥茶香。干燥方法，有烘干、炒干和晒干三种形态。绿茶的干燥工序，一般先经过烘干，然后再进行炒干。<br/>
+                    因揉捻后的茶叶，含水量仍很高，如果直接炒干，会在炒干机的锅内很快结成固块，茶汁易粘结锅壁。故此，茶叶先进行烘干，使含水量降低至符合锅炒的要求。
+                    </p>
+            	</div>
+                <div class="footer">
+                    Copyright @ 2019 by hjdxl All rights reserved
+                </div>
+          	</div>
+		</div>
+		<div id="radiodiv" class="radiodiv">
+			<input type="radio" id="radio1" onmouseenter="showScreen(1);" name="radio" value="1" checked="checked" />
+			<br/><br/><input type="radio" id="radio2" onmouseenter="showScreen(2)" name="radio" value="2" />
+			<br/><br/><input type="radio" id="radio3" onmouseenter="showScreen(3)" name="radio" value="3" />	
+			<br/><br/><div id="informationdiv"></div>
+		</div>
+    </div>
+    
+    
+</body>
+<link href="./css/03.css" rel="stylesheet" type="text/css" />
+<link href="./css/style.css" rel="stylesheet" type="text/css" />
+<script src="./js/jquery-1.6.min.js" type="text/javascript"></script>
+<script src="./js/menu.js" type="text/javascript"></script>
+<script src="./js/split.js" type="text/javascript"></script>
+</html>

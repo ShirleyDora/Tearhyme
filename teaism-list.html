@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html><head>
+<meta charset="UTF-8">
+<head>
+
+<title>茶韵</title>
+<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->
+</head>
+<body>
+	<div id="daohang">
+    	<div class="leftnav">
+            <ul id="nav">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="origin.html">文化起源</a></li>
+                <li><a href="craft.html">制作工艺</a></li>
+                <li><a href="health.html">利益养生</a>
+                	<ul>
+                    	<li><a href="health.html">茶之功效</a>
+						 <li><a href="tea-poems.html">茶与诗词</a></li>
+                         <li><a href="tea-influence.html">茶之影响</a></li> 
+                    </ul>
+                </li>
+                <li><a href="teaism.html">茶道茶德</a>
+</li>
+            	<li><a href="message.html">留言</a></li>
+            </ul>
+        </div>
+        <div class="rightnav">
+          <img src="./images/play.png" onclick="play()">
+		  <img src="./images/stop.png" onclick="stop()">
+		  <audio id="music" loop autoplay="autoplay">
+                <source src="./music/01.mp3" type="audio/mpeg">
+                <source src="./music/01.ogg" type="audio/ogg">
+		  </audio>
+        </div>
+	</div>
+<header>
+	<div class="header-content home">
+		<div class="parallax-bg" id="slider-wrap">
+		<div class="slider parallax-bg" id="slider"> <div class="slider-sections sandbox"> 
+		<section class="first"> <img alt="红茶" src="images/510.png"/> <div class="text"> <h2>六大名茶之<br />
+		红茶 </h2> <p class="copy">红茶是一种全发酵茶，是茶文化中的主要茶品。红茶的产地主要有中国、斯里兰卡、印度、肯尼亚等地。红茶是经过采摘、萎凋、揉捻、发酵、干燥等步骤生产出来的；比绿茶多了一个发酵的过程。发酵是指茶叶在空气中氧化，发酵作用使得茶叶中的茶多酚和单宁酸减少，产生了茶黄素、茶红素等新的成分和醇类、醛类、酮类、酯类等芳香物质。</p> <p class="button"><a href="teaism-list-detail1.html" onclick="_gaq.push(['_trackPageview']);">详情</a> <a class="dimmed" onclick="_gaq.push(['_trackPageview']);" href="teaism-list-book.html" target="_blank">更多</a></p> </div> </section>
+		<section> <img src="images/511.png" alt="黄茶" /> <div class="text" style="padding-top: 10px;"> <h2>六大名茶之<br />黄茶 </h2> <p class="copy">黄茶是中国特产。其按鲜叶老嫩芽叶大小又分为黄芽茶、黄小茶和黄大茶。黄芽茶主要有君山银针、蒙顶黄芽和霍山黄芽、远安黄茶;如沩山毛尖、平阳黄汤、雅安黄茶等均属黄小茶。三峡库区蓄水以后，秭归山区常年雾气笼罩，形成了独具特色的秭归黄茶，也属于黄小茶。</p> <p class="button"><a href="teaism-list-detail2.html" onclick="_gaq.push(['_trackPageview]);">详情</a> <a class="dimmed" onclick="_gaq.push(['_trackPageview']);" href="teaism-list-book.html" target="_blank">更多</a></p> </div> </section>
+		<section> <img src="images/512.png" alt="绿茶" /> <div class="text"> <h2>六大名茶之<br />绿茶 </h2> <p class="copy">绿茶是未经发酵制成的茶，保留了鲜叶的天然物质，含有的茶多酚、儿茶素、叶绿素、咖啡碱、氨基酸、维生素等营养成分也较多。绿茶中的这些天然营养成份对防衰老、防癌、抗癌、杀菌、消炎等具有特殊效果，是其他茶类所不及的。</p> <p class="button"><a href="teaism-list-detail3.html" onclick="_gaq.push(['_trackPageview']);">详情</a> <a class="dimmed" onclick="_gaq.push(['_trackPageview']);" href="teaism-list-book.html" target="_blank">更多</a></p> </div> </section>
+        <section> <img src="images/513.png" alt="青茶" /> <div class="text"> <h2>六大名茶之<br />青茶（乌龙茶） </h2> <p class="copy">乌龙茶，亦称青茶、半发酵茶，是中国几大茶类中，独具鲜明特色的茶叶品类。乌龙茶是经过杀青、萎雕、摇青、半发酵、烘焙等工序后制出的品质优异的茶类。乌龙茶由宋代贡茶龙团、凤饼演变而来，创制于1725年(清雍正年间)前后。品尝后齿颊留香，回味甘鲜。乌龙茶的药理作用，突出表现在分解脂肪、减肥健美等方面。在日本被称之为"美容茶"、"健美茶"。</p> <p class="button"><a href="teaism-list-detail3.html" onclick="_gaq.push(['_trackPageview']);">详情</a> <a class="dimmed" onclick="_gaq.push(['_trackPageview']);" href="teaism-list-book.html" target="_blank">更多</a></p> </div> </section>
+        <section> <img src="images/514.png" alt="白茶" /> <div class="text"> <h2>六大名茶之<br />白茶 </h2> <p class="copy">白茶，属微发酵茶，是中国茶农创制的传统名茶。中国六大茶类之一。指一种采摘后，不经杀青或揉捻，只经过晒或文火干燥后加工的茶。具有外形芽毫完整，满身披毫，毫香清鲜，汤色黄绿清澈，滋味清淡回甘的品质特点。白茶因茶树品种、原料(鲜叶)采摘的标准不同，主要品种分为:首日芽、天山白、白毫银针、白牡丹、寿眉(贡眉)</p> <p class="button"><a href="teaism-list-detail3.html" onclick="_gaq.push(['_trackPageview']);">详情</a> <a class="dimmed" onclick="_gaq.push(['_trackPageview']);" href="teaism-list-book.html" target="_blank">更多</a></p> </div> </section>
+        <section> <img src="images/515.png" alt="黑茶" /> <div class="text"> <h2>六大名茶之<br />黑茶 </h2> <p class="copy">黑茶(dark tea)，因成品茶的外观呈黑色，故得名。黑茶属于六大茶类之一，属后发酵茶，主产区为四川、云南、湖北、湖南、陕西、安徽等地。传统黑茶采用的黑毛茶原料成熟度较高，是压制紧压茶的主要原料。黑毛茶制茶工艺一般包括杀青、揉捻、渥堆和干燥四道工序。黑茶按地域分布，主要分类为湖南黑茶(茯茶、千两茶、黑砖茶、三尖等)、湖北青砖茶、四川藏茶(边茶)、安徽古黟黑茶(安茶)、云南黑茶(普洱熟茶)、广西六堡茶及陕西黑茶(茯茶)。</p> <p class="button"><a href="teaism-list-detail3.html" onclick="_gaq.push(['_trackPageview']);">详情</a> <a class="dimmed" onclick="_gaq.push(['_trackPageview']);" href="teaism-list-book.html" target="_blank">更多</a></p> </div> </section>
+
+        </div>
+       </div> <a class="slider-prev" href="javascript: void(0)">?</a> <a class="slider-next" href="javascript: void(0)">?</a>
+		</div>
+	</div>
+    
+    <div class="header-content home">
+		<div class="parallax-bg" id="slider-wrap">
+		<div class="slider parallax-bg" id="slider"> <div class="slider-sections sandbox"> 
+		<section class="first"> <img alt="花茶" src="images/516.png"/> <div class="text"> <h2>许多人爱喝的<br/>花茶 </h2><p class="copy">花茶，又名香片，利用茶善于吸收异味的特点，将有香味的鲜花和新茶一起闷，茶将香味吸收后再把干花筛除，制成的花茶香味浓郁，茶汤色深，深得偏好重口味的中国北方人喜爱。最普通的花茶是用茉莉花制的茉莉花茶，普通花茶都是用绿茶制作，也有用红茶制作的。花茶主要以绿茶、红茶或者乌龙茶作为茶坯、配以能够吐香的鲜花作为原料，采用窨制工艺制作而成的茶叶。</p> <p class="button"><a href="teaism-list-detail7.html" onclick="_gaq.push(['_trackPageview']);">详情</a> <a class="dimmed" onclick="_gaq.push(['_trackPageview']);" href="teaism-list-book.html" target="_blank">更多</a></p> </div> </section>
+	</div> </div> 
+		</div>
+	</div>
+    <div class="header-content home">
+		<div class="parallax-bg" id="slider-wrap">
+		<div class="slider parallax-bg" id="slider"> <div class="slider-sections sandbox"> 
+		<section class="first"> <img alt="水果茶" src="images/517.png"/> <div class="text"> <h2>许多人爱喝的<br/>水果茶 </h2><p class="copy">将花果茶用热开水冲泡后，加入适量的蜂蜜或冰糖或片糖，此为热饮;调好后加入冰块，即为冷饮的喝法，另外，如果时间充裕的话，也可以放入冰箱冷却后饮用。这是最基本的调法，要享受花果茶前一定要学好本招式。</p> <p class="button"><a href="teaism-list-detail7.html" onclick="_gaq.push(['_trackPageview']);">详情</a> <a class="dimmed" onclick="_gaq.push(['_trackPageview']);" href="teaism-list-book.html" target="_blank">更多</a></p> </div> </section>
+	</div> </div> 
+		</div>
+	</div>
+</header>
+ <div id="footer">
+    	Copyright @ 2019 by hjdxl All rights reserved
+    </div>
+</body>
+<link href="css/slider.css" rel="stylesheet" type="text/css" />
+<link href="./css/style.css" rel="stylesheet" type="text/css" />
+<script src="./js/menu.js" type="text/javascript"></script>
+<script type='text/javascript' src='js/jquery-1.7.2.min.js'></script>
+<script type='text/javascript' src='js/common.js'></script>
+<script type='text/javascript' src='js/slider.js'></script>
+</html>
